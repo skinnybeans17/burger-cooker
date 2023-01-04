@@ -4,7 +4,7 @@
         <title>Burger Cooker</title>
         <style>
             body{
-                background-color: gray;
+                background-color: #FAED6B;
                 align-items: center;
                 justify-content: center;
             }
@@ -15,7 +15,18 @@
             }
             h1{
                 text-align: center;
-                color: red;
+                color: #F9C616;
+            }
+            h4{
+                text-align: center;
+                color: #F9C616;
+            }
+            .item{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 25%;
+                margin-bottom: 20px;
             }
             #option1 {
                 align-items: center;
@@ -29,60 +40,52 @@
                 display: inline-block;
                 margin-bottom: 20px;
             }
-            .burger {
+            .yes {
                 display: flex;
                 width: 700px;
-                height: 263px;
+                height: 131px;
                 border: none;
-                background-color: #b38774;
+                background-color: lime;
                 padding: 14px 28px;
-                font-size: 100px;
+                font-size: 64px;
                 cursor: pointer;
                 text-align: center;
                 position: center;
-                color: #937250;
+                color: green;
                 align-items: center;
                 justify-content: center;
                 align-self: center;
                 right: auto;
-                border-radius: 25%;
-                transition: 400ms;
             }
-            .burger:hover {
-                background-color: #a87f66;
-            }
-            .chicken {
+            .no {
                 display: flex;
                 width: 700px;
-                height: 263px;
+                height: 131px;
                 border: none;
-                background-color: #debc57;
+                background-color: red;
                 padding: 14px 28px;
-                font-size: 80px;
+                font-size: 64px;
                 cursor: pointer;
                 text-align: center;
                 position: center;
-                color: #b68453;
+                color: maroon;
                 align-items: center;
                 justify-content: center;
                 align-self: center;
                 right: auto;
-                border-radius: 25%;
-                transition: 400ms;
-            }
-            .chicken:hover {
-                background-color: #d4ac4a;
             }
         </style>
     </head>
     <body>
-        <h1>Would you like a burger or a chicken sandwich?</h1>
+        <h1>Cheese</h1>
+        <h4>Would you like a cheese burger?</h4>
+        <img src="../img/cheese.png" class="item">
         <div id="options">
             <div id="option1">
-                <a type="button" class="burger" href="burger.html">Burger</a>
+                <a type="button" class="yes" href="cheese/added.html">Yes</a>
             </div>
             <div id="option2"> 
-                <a type="button" class="chicken" href="chicken.html">Chicken Sandwich</a>
+                <a type="button" class="no" href="burger.html">No</a>
             </div>
         </div>
     </body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flip the Patty!</title>
+        <style>
+            body{
+                background-color: gray;
+                align-items: center;
+                justify-content: center;
+            }
+            .flip {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                transition: 400ms;
+                transform: scale(1) rotate(0);
+                align-self: center;
+                top: 50px;
+            }
+            .flip:hover {
+                transform: scale(1.25) rotate(12deg);
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Flip the patty!</h1>
+        <div class="flip">
+            <a type="button" class="patty" href="burger/burger.html"><img src="img/patty.png"</a>
+        </div>
+    </body>
+</html>
